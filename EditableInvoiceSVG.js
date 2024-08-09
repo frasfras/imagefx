@@ -137,6 +137,12 @@ const EditableInvoiceSVG = () => {
         </defs>
         <rect width="100%" height="100%" fill="url(#grad1)" />
 
+        {/* <!-- Canva Logo --> */}
+        <text x="20" y="20" font-family="Arial" font-size="24" font-weight="bold" fill="#7d2ae8">
+          Canva
+        </text>
+        <circle cx="90" cy="10" r="8" fill="#00c4cc" />
+  
         <EditableText x={20} y={40} fontSize={24} fill="#333" initialText="Invoice ||   Mycompany" onChange={(value) => {}} />
 
         <text x={20} y={60} fontFamily="Arial" fontSize={14} fill="#333">
