@@ -188,6 +188,11 @@ const EditableInvoiceSVG = () => {
           ${calculateTotal(invoiceData.items)}
         </text>
       </svg>
+
+       <!-- Footer -->
+      <text x="400" y="520" font-family="Arial" font-size="12" text-anchor="middle">Thank you for choosing Canva Enterprise!</text>
+      <text x="400" y="540" font-family="Arial" font-size="12" text-anchor="middle">For support, contact enterprise@canva.com</text>
+   
       <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors" onClick={addToCanva} style={{ marginTop: "20px" }}>
         Save svg as URL
       </button>
